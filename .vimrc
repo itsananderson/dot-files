@@ -33,6 +33,9 @@ set tabstop=4
 set shiftwidth=4
 set sts=4
 
+set backspace=indent,eol,start      " Allow backspace at the start of insert mode
+set autoindent                      " Auto indent lines
+
 set list listchars=tab:→\ ,trail:·
 
 inoremap <C-k> <Esc>                " CTRL+K to escape
