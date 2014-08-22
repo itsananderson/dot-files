@@ -1,0 +1,11 @@
+#!/bin/sh
+
+#git branch -r | awk -F/ 'BEGIN {OFS="/"} !/[^\/]+\/(HEAD|master)/ { print "~/dot-files/bclean/maybe-bclean" $1 " " $2}' > $TMP/bclean.sh
+git branch -r | \
+    awk '!/[^\/]+\/(HEAD|master)/ {print $0}' | \
+    sed 's/^  //' | sed 's/\([^/]\+\)\/\(.*\)/maybclean \1 \2/' \
+    > $TMP/bclean.sh
+
+$TMP/bclean.sh
+
+echo done
