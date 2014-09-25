@@ -81,7 +81,6 @@ else
     colorscheme desert
 endif
 
-"call pathogen#infect()              " Init pathogen
 syntax on                           " enable syntax highlighting
 
 let NERDTreeShowHidden=1
