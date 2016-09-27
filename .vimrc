@@ -23,7 +23,7 @@ Plugin 'tpope/vim-sleuth'
 Plugin 'xoria256.vim'
 Plugin 'danro/rename.vim'
 Plugin 'tpope/vim-fugitive'
-Plugin 'editorconfig/editorconfig-vim'
+" Plugin 'editorconfig/editorconfig-vim'
 Plugin 'tpope/vim-unimpaired'
 call vundle#end()
 filetype plugin indent on
