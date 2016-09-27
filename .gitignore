@@ -7,6 +7,9 @@ AzureStorageEmulator*
 
 # Other Files
 .bash_history
+.node_repl_history
+.viminfo
+_viminfo
 
 # Exclusions
 !vim/
