@@ -1,5 +1,12 @@
+# Folders
 */
 
 # Windows Files
 NTUSER*
 AzureStorageEmulator*
+
+# Other Files
+.bash_history
+
+# Exclusions
+!vim/
